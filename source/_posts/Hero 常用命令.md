@@ -1,3 +1,7 @@
+---
+title: Hero 常用命令
+---
+
 # Hero 常用命令
 
 - `hexo generate`：在`public`目录中生成静态网页文件
@@ -15,8 +19,6 @@ hexo clean
 hexo generate
 hexo deploy
 ```
-
-
 
 
 

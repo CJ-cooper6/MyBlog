@@ -8,9 +8,7 @@ list(): 调用函数来创建列表
 def list():
     return 'hhh'
 print(type(list()))
-1
-2
-3
+
 输出：
 <class ‘str’>
 
