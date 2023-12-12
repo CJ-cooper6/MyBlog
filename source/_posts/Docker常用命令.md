@@ -28,7 +28,19 @@ docker search 镜像名称
 docker rmi 镜像id ｜ 镜像名称
 ```
 
+**构建镜像：**
 
+```
+docker build -t demo  . 
+```
+
+> 最后有个 . 表示上下文路径
+>
+> build工作由Dokcer引擎完成，所以要给Docker引擎提供上下文环境。构建镜像时，客户端会将路径下的所有内容打包，并上传给 Docker 引擎，这样它就可以获取构建镜像所需的一切文件了。
+
+`-t`:命名为demo
+
+​	
 
 ## 容器
 
@@ -86,7 +98,7 @@ docker rm 容器名称|容器ID
 **进入正在运行的容器：**
 
 ```
-docker exec -it 容器名称|容器ID /bin/bash 
+  docker exec -it 容器名称|容器ID /bin/bash 
 ```
 
 
