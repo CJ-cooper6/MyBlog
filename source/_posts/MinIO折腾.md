@@ -19,7 +19,7 @@ docker pull minio/minio
 启动
 
 ```
-docker run --name minio -p 9000:9000 -p 9001:9001 -d --restart=always -e "MINIO_ACCESS_KEY=admin" -e "MINIO_SECRET_KEY=xxxxxxxx" -v "/root/minio/data":"/data" -v "/root/minio/config":"/root/.minio" minio/minio server /data --console-address ":9001"
+docker run --name minio -p 9000:9000 -p 9001:9001 -d --restart=always -e "MINIO_ACCESS_KEY=xxxxx" -e "MINIO_SECRET_KEY=xxxxxxxxxxx" -v "/root/minio/data":"/data" -v "/root/minio/config":"/root/.minio" minio/minio server /data --console-address ":9001"
 ```
 
 **注意**：
@@ -37,13 +37,13 @@ docker run --name minio -p 9000:9000 -p 9001:9001 -d --restart=always -e "MINIO_
 
 使用我们做数据映射时的账号密码，就可以登录进去，然后创建Buckets，将`Access Policy`设置成为`Public`，这样才能通过url访问图片
 
-![image-20240329013438551](http://127.0.0.1:9000/images/imgs/2024/03/29/image-20240329013438551.png)
+![image-20240329013438551](http://8.137.104.101:9000/images/imgs/2024/03/29/image-20240329013438551.png)
 
 
 
 输入`ip + api端口 + 桶名 + 文件名` 即可访问图片：
 
-![image-20240329013513505](http://127.0.0.1:9000/images/imgs/2024/03/29/image-20240329013513505.png)
+<img src="http://8.137.104.101:9000/images/imgs/2024/03/29/image-20240329013513505.png" alt="image-20240329013513505" style="zoom:50%;" />
 
 
 
@@ -51,9 +51,25 @@ docker run --name minio -p 9000:9000 -p 9001:9001 -d --restart=always -e "MINIO_
 
 
 
-![](http://127.0.0.1:9000/images/imgs/2024/03/29/20240201222834778522.png)
+### 结合PicGo搭建图床
+
+安装插件
+
+<img src="http://8.137.104.101:9000/images/wg/2024/04/01/image-20240401155334705.png" alt="image-20240401155334705" style="zoom:50%;" />
 
 
+
+配置信息
+
+<img src="http://8.137.104.101:9000/images/imgs/2024/04/01/image-20240401155717654.png" alt="image-20240401155717654" style="zoom:50%;" />
+
+
+
+大功告成！
+
+
+
+参考：
 
 https://blog.csdn.net/qq_43198727/article/details/131000772
 
