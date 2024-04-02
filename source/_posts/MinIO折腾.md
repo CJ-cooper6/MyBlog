@@ -55,7 +55,7 @@ docker run --name minio -p 9000:9000 -p 9001:9001 -d --restart=always -e "MINIO_
 
 安装插件
 
-<img src="http://8.137.104.101:9000/images/wg/2024/04/01/image-20240401155334705.png" alt="image-20240401155334705" style="zoom:50%;" />
+<img src="http://8.137.104.101:9000/images/imgs/2024/04/02/image-20240402155325332.png" alt="image-20240402155325332" style="zoom:50%;" />
 
 
 
