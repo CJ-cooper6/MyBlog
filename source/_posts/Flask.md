@@ -1,3 +1,9 @@
+---
+title: Flask
+date: 2024-01-04 18:15:46
+tags: Python
+---
+
 # Flask
 
 MVT模型，model、view、template

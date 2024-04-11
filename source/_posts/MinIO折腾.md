@@ -1,3 +1,9 @@
+---
+title: MinIO折腾
+date: 2024-04-01 18:15:46
+tags: MinIO
+---
+
 # MinIO折腾
 
 ```
@@ -37,13 +43,13 @@ docker run --name minio -p 9000:9000 -p 9001:9001 -d --restart=always -e "MINIO_
 
 使用我们做数据映射时的账号密码，就可以登录进去，然后创建Buckets，将`Access Policy`设置成为`Public`，这样才能通过url访问图片
 
-![image-20240329013438551](http://8.137.104.101:9000/images/imgs/2024/03/29/image-20240329013438551.png)
+![image-20240329013438551](https://www.cocokoi.top:9789/images/imgs/2024/03/29/image-20240329013438551.png)
 
 
 
 输入`ip + api端口 + 桶名 + 文件名` 即可访问图片：
 
-<img src="http://8.137.104.101:9000/images/imgs/2024/03/29/image-20240329013513505.png" alt="image-20240329013513505" style="zoom:50%;" />
+<img src="https://www.cocokoi.top:9789/images/imgs/2024/03/29/image-20240329013513505.png" alt="image-20240329013513505" style="zoom:50%;" />
 
 
 
@@ -55,13 +61,13 @@ docker run --name minio -p 9000:9000 -p 9001:9001 -d --restart=always -e "MINIO_
 
 安装插件
 
-<img src="http://8.137.104.101:9000/images/imgs/2024/04/02/image-20240402155325332.png" alt="image-20240402155325332" style="zoom:50%;" />
+<img src="https://www.cocokoi.top:9789/images/imgs/2024/04/02/image-20240402155325332.png" alt="image-20240402155325332" style="zoom:50%;" />
 
 
 
 配置信息
 
-<img src="http://8.137.104.101:9000/images/imgs/2024/04/01/image-20240401155717654.png" alt="image-20240401155717654" style="zoom:50%;" />
+<img src="https://www.cocokoi.top:9789/images/imgs/2024/04/01/image-20240401155717654.png" alt="image-20240401155717654" style="zoom:50%;" />
 
 
 

@@ -1,6 +1,7 @@
 ---
 title: 动态绑定组件component
 date: 2024/3/26 16:35:25
+tags: Vue
 ---
 
 # 动态绑定组件component
