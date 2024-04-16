@@ -1,8 +1,9 @@
 ---
-title:《JavaScript高级程序设计》笔记
-categories: 读书笔记
+title: 《JavaScript高级程序设计》第一章笔记
+date: 2023/11/02 20:46:25
+categories:
+- 读书笔记
 ---
-
 ## JavaScript 实现
 
 完整的JavaScript的实现包括以下几个部分:
@@ -27,4 +28,10 @@ ECMAScript 只是对实现这个规范描述的所有方面的一门语言的称
 
 #### DOM
 
-文档对象模型（DOM，Document Object Model）是一个应用编程接口（API），它将将整个页面抽象为一组分层节点。HTML 或 XML 页面的每个组成部分都是一种节点，包含不同的数据。
+文档对象模型（DOM，Document Object Model）是一个应用编程接口（API），提供与网页内容交互的方法和接口，它将将整个页面抽象为一组分层节点。HTML 或 XML 页面的每个组成部分都是一种节点，包含不同的数据。
+
+
+
+#### BOM
+
+浏览器对象模型API，提供与浏览器交互的方法和接口，用于支持访问和操作浏览器的窗口。
