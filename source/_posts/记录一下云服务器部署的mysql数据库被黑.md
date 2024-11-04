@@ -7,11 +7,11 @@ date: 2024/2/22 15:35:09
 
 最近在学习前端，开发了一个web项目将其部署在服务器上，今天一看，数据库被黑客黑掉了，数据库原本的表都被删除了,新增了`RECOVER_YOUR_DATA`表，里面新增了一条记录，大意是让我48小时之内付款0.015的比特币。好家伙按今天的汇率要5000多人民币（我只有一张表10几条数据。。。）
 
-![image-20240222174533135](/Users/cooper/Library/Application Support/typora-user-images/image-20240222174533135.png)
+![image-20240222174533135](https://www.cocokoi.top/resource/images/imgs/2024/11/04/image-20240222174533135_repeat_1730685729872__751733.png)
 
-![image-20240222174814651](/Users/cooper/Library/Application Support/typora-user-images/image-20240222174814651.png)
+![image-20240222174814651](https://www.cocokoi.top/resource/images/imgs/2024/11/04/image-20240222174814651_repeat_1730685747116__026995.png)
 
-![image-20240222175104093](/Users/cooper/Library/Application Support/typora-user-images/image-20240222175104093.png)
+![image-20240222175104093](https://www.cocokoi.top/resource/images/imgs/2024/11/04/image-20240222175104093_repeat_1730685754544__312755.png)
 
 第一次遇到网络敲诈，金额还不小，通过这次经历也让我意识到 **数据库安全问题** 。
 
