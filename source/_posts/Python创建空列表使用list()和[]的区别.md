@@ -1,3 +1,9 @@
+---
+title: Python创建空列表使用list()和[]的区别
+date: 2024-11-15 10:10:46
+tags: Python
+---
+
 # Python创建空列表使用list()和[]的区别
 
 list(): 调用函数来创建列表
