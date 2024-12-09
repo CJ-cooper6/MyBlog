@@ -1,7 +1,7 @@
 ---
 title: 使用Nginx方向代理，加载不到静态文件
 date: 2024-11-15 18:15:46
-tags: nginx
+tags: Nginx
 ---
 
 # 使用Nginx方向代理，加载不到静态文件

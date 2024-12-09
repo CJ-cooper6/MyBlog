@@ -1,7 +1,7 @@
 ---
 title: git常用命令
 date: 2024-11-15 18:15:46
-tags: git
+tags: Git
 ---
 
 ```Shell

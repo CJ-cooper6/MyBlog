@@ -1,7 +1,7 @@
 ---
 title: MinIO折腾
 date: 2024-04-01 18:15:46
-tags: MinIO
+tags: Minio
 ---
 
 # MinIO折腾

@@ -1,7 +1,7 @@
 ---
 title: git pull --rebase实际操作
 date: 2024-11-15 18:15:46
-tags: git
+tags: Git
 ---
 
 `git pull --rebase` 命令结合了两个操作：`git fetch` 和 `git rebase`。

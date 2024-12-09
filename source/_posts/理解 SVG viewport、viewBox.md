@@ -1,7 +1,7 @@
 ---
 title: 理解 SVG viewport、viewBox
 date: 2024-09-18 17:57:23
-tags: svg
+tags: Svg
 ---
 
 # 理解 SVG viewport、viewBox

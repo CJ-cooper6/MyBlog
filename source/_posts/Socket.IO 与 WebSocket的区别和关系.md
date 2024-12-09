@@ -1,7 +1,7 @@
 ---
 title: Socket.IO 与 WebSocket的区别和关系
 date: 2024-11-15 10:10:46
-tags: WebSocket,Socket.IO
+tags: ["Websocket", "Socket.io"]
 ---
 
 WebSocket是一个独立的协议，基于 TCP，可通过持久的单套接字连接在客户端和服务器之间实现双向、全双工通信。
